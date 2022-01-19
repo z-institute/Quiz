@@ -1,0 +1,22 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-institute/Quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z-institute/Quiz/issues"
+  },
+  "homepage": "https://github.com/z-institute/Quiz#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2"
+  }
+}
