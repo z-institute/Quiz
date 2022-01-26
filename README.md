@@ -11,3 +11,11 @@ Run the below command and open https://remix.ethereum.org
 npm i
 remixd -s $(pwd) --remix-ide https://remix.ethereum.org
 ```
+
+## Initial Dependency Setup
+
+```
+npm install -g remixd
+npm install @openzeppelin/contracts --save
+npm install @chainlink/contracts --save
+```
