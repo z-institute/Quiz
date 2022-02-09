@@ -22,7 +22,7 @@ contract MyToken is ERC721, AccessControl {
         require(msg.value == 0.1 ether * tokenIds.length);
 
         for (uint256 i = 0; i < tokenIds.length; i++) {
-            mint(to, tokenIds[i]);
+            _mint(to, tokenIds[i]);
         }
     }
 
