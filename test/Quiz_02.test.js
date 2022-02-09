@@ -44,4 +44,8 @@ describe("Quiz 2 test", async function () {
       "Not enough funds to mint."
     );
   });
+
+  it("Should support interface", async function () {
+    expect(await token.supportsInterface("0x00000001"), false);
+  });
 });
