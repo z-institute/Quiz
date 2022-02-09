@@ -15,11 +15,11 @@ contract MyToken is ERC721, AccessControl {
     }
 
     function mint(address account, uint256 tokenId) public payable onlyRole(MINTER_ROLE)  {
-        require(msg.value == 0.1 ether);
+        require(msg.value == 0.1 ether, "Not enough funds to mint.");
         _mint(account, tokenId);
     }
     function batchMint(address to, uint256[] memory tokenIds) public payable onlyRole(MINTER_ROLE) {
-        require(msg.value == 0.1 ether * tokenIds.length);
+        require(msg.value == 0.1 ether * tokenIds.length, "Not enough funds to mint.");
 
         for (uint256 i = 0; i < tokenIds.length; i++) {
             _mint(to, tokenIds[i]);
