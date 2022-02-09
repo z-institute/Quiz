@@ -1,8 +1,9 @@
 # Quiz
 
 1. [Quiz_01.sol](./Quiz_01.sol): An ERC20 contract which can be minted for 0.1 ETH per token.
-2. [Quiz_02.sol](./Quiz_02.sol): An ERC721 contract which can be minted and batch minted for 0.1 ETH per token.
+2. [Quiz_02.sol](./contracts/Quiz_02.sol): An ERC721 contract which can be minted and batch minted for 0.1 ETH per token.
 3. [Quiz_03.sol](./Quiz_03.sol): A contract that can request random number using the Chainlink VRF library.
+4. [Quiz_02.test.js](./test/Quiz_02.test.js): Test your `Quiz_02.sol` contract with Hardhat framework.
 
 ## Setup
 
