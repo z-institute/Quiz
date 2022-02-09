@@ -18,6 +18,12 @@
   "homepage": "https://github.com/z-institute/Quiz#readme",
   "dependencies": {
     "@chainlink/contracts": "^0.3.1",
-    "@openzeppelin/contracts": "^4.4.2"
+    "@openzeppelin/contracts": "^4.4.2",
+    "chai": "^4.3.6"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.3"
   }
 }
