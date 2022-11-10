@@ -8,5 +8,5 @@ const { solidity } = require("ethereum-waffle");
 chai.use(solidity);
 
 module.exports = {
-  solidity: "0.8.0",
+  solidity: "0.8.15",
 };
