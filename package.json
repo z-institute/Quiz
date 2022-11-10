@@ -18,7 +18,7 @@
   "homepage": "https://github.com/z-institute/Quiz#readme",
   "dependencies": {
     "@chainlink/contracts": "^0.3.1",
-    "@openzeppelin/contracts": "^4.4.2",
+    "@openzeppelin/contracts": "^4.8.0",
     "chai": "^4.3.6"
   },
   "devDependencies": {
